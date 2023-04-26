@@ -1,0 +1,22 @@
+.star {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 60px yellow, 0 0 80px yellow, 0 0 100px yellow, 0 0 120px yellow, 0 0 150px yellow;
+    animation: sparkling 10s linear infinite;
+  }
+  
+  @keyframes sparkling {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+      transform: translate3d(0, 0, 0) scale(0.5);
+    }
+    100% {
+      opacity: 1;
+      transform: translate3d(0, 0, 0) scale(1);
+    }
+  }
+  
