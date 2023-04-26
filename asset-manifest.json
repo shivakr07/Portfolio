@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.84462c80.css",
+    "main.js": "/Portfolio/static/js/main.abc5919e.js",
+    "static/media/python.png": "/Portfolio/static/media/python.ec327b953790673f4e1f.png",
+    "static/media/moon.png": "/Portfolio/static/media/moon.75b91ed41c3579518d15.png",
+    "static/media/asttt.png": "/Portfolio/static/media/asttt.3d9cc781043ef07d3308.png",
+    "static/media/portfolio3.png": "/Portfolio/static/media/portfolio3.7e8fc0f40960e0f1d06b.png",
+    "static/media/mysql.png": "/Portfolio/static/media/mysql.9f299f28d9aa84dfab7b.png",
+    "static/media/portfolio1.jpg": "/Portfolio/static/media/portfolio1.682448944a36d2e9070e.jpg",
+    "static/media/portfolio7.png": "/Portfolio/static/media/portfolio7.1f7a3ca35d7d8a69858e.png",
+    "static/media/portfolio8.png": "/Portfolio/static/media/portfolio8.c5b12334541f870606c2.png",
+    "static/media/portfolio6.png": "/Portfolio/static/media/portfolio6.5e75da7618b0d4ac6516.png",
+    "static/media/Tensorflow.png": "/Portfolio/static/media/Tensorflow.057fccbfeb08cb9a6f73.png",
+    "static/media/javascript.png": "/Portfolio/static/media/javascript.96654941e8f434046bac.png",
+    "static/media/docker.png": "/Portfolio/static/media/docker.921ffa9aef9b646594f3.png",
+    "static/media/me-about.jpg": "/Portfolio/static/media/me-about.9bb895042d0f35f43737.jpg",
+    "static/media/airr.png": "/Portfolio/static/media/airr.631032b80fcf468735ea.png",
+    "static/media/react.png": "/Portfolio/static/media/react.5e3aff08ff12bbac306c.png",
+    "index.html": "/Portfolio/index.html",
+    "main.84462c80.css.map": "/Portfolio/static/css/main.84462c80.css.map",
+    "main.abc5919e.js.map": "/Portfolio/static/js/main.abc5919e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84462c80.css",
+    "static/js/main.abc5919e.js"
+  ]
+}
