@@ -1,12 +1,28 @@
-.skills-section {
-  max-width: 960px;
+.skill{
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    /* margin: auto; */
+}
+.skills > div {
+  background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+/* .skills-section {
+  max-width: 1040px;
   margin: 0 auto;
   padding: 20px;
-}
+} */
 
 .technologies {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  width: 50px;
+  height: 50px;
+  grid-template-columns: repeat(4, minmax(200px, 3fr));
   grid-gap: 1rem;
   justify-items: center;
 }
@@ -26,7 +42,7 @@
 }
 
 .technology:hover img {
-  transform: translateY(-10px);
+  transform: translateY(-5px);
 }
 
 .technology img {
@@ -57,16 +73,16 @@
   margin-top: 5px;
 }
 
-.progress {
+/* .progress {
   height: 100%;
   background-color: #9FEF00;
   width: 0%;
   transition: width 0.3s ease-out;
-}
+} */
 
-.technology:hover .progress {
+/* .technology:hover .progress {
   width: 33.33%;
-}
+} */
 
 .technology:hover {
   box-shadow: 0 0 20px #9FEF00;
@@ -84,9 +100,9 @@
   z-index: -1;
 }
 
-.technology:hover .expertise {
+/* .technology:hover .expertise {
   background-color: #9FEF00;
-}
+} */
 
 @media screen and (max-width: 840px) {
   .technology {

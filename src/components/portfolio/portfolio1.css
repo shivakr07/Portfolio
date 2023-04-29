@@ -1,6 +1,6 @@
 .portfolio__container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
   }
   
@@ -26,7 +26,7 @@
   
   .portfolio__item:hover {
     transform: translateY(-10px);
-    box-shadow: 0 16px 70px -12.125px rgb(248, 246, 246);
+    box-shadow: 0 16px 70px -12.125px #9FEF00;
   }
   
   .portfolio__item-image {

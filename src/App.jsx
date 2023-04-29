@@ -9,10 +9,9 @@ import Testimonials from "./components/testimonials/Testimonials"
 import Contact from "./components/contact/Contact"
 import Footer from "./components/footer/Footer"
 // import Cont from './components/contact/cont'
-import Skill from './components/portfolio/skills'
-
+// import Skill from './components/portfolio/skills'
+import Practice from './components/portfolio/practice'
 import './App.css'
-
 const App = () => {
   return (
     <>  
@@ -23,18 +22,15 @@ const App = () => {
     
         <Experience />
         <Portfolio />
-        <Skill />
+        <Practice />
+        {/* <Skill /> */}
         <Services />
 
         <Testimonials />
         <Contact />
-        <Footer />
+        <Footer />   
         
-        
-        
-  
 
-        
         
     </>
   )

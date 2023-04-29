@@ -67,6 +67,13 @@ const data = [
     title: "ecommerce website ",
     Github: "https://github.com/IsraelBosun/ecommerce-stripe",
     demo: "https://ecommerce-stripe-git-main-israelbosun.vercel.app/"
+  },
+  {
+    id: 9,
+    imaage: IMG8,
+    title: "ecommerce website ",
+    Github: "https://github.com/IsraelBosun/ecommerce-stripe",
+    demo: "https://ecommerce-stripe-git-main-israelbosun.vercel.app/"
   }
 ]
 
