@@ -1,14 +1,14 @@
 .about__container{
     display: grid;
-    grid-template-columns: 35% 50%;
-    gap: 10%;
+    grid-template-columns: 30% 70%;
+    gap: 1%;
 }
 
 .about__me{
     width: 230px;
     aspect-ratio: 1/1;
-    border-radius: 2rem;
-    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    /* border-radius: 2rem; */
+    background: linear-gradient(45deg, transparent, #b1a1c1, transparent);
     display: grid;
     place-items: center;
 }
@@ -35,7 +35,7 @@
 }
 
 .about__card{
-    background: var(--color-bg-variant);
+    background: #221730a6;
     border: 1px solid transparent;
     border-radius: 1rem;
     padding: 2rem;
@@ -45,7 +45,7 @@
 
 .about__card:hover{
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color:#221730a6;
     cursor: default;
 }
 
@@ -65,16 +65,18 @@
 }
 
 .about__content p{
-    margin: 2rem 0 2.6rem;
-    color: var(--color-light);
+    width: 100%;
+    color: var(--color-light)
 }
 
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) ================ */
-@media screen and (max-width: 1024px) {
+@media screen and  (max-width : 1024px) {
     .about__container{
         grid-template-columns: 1fr;
         gap: 0;
     }
+    
+      /* Hide this style on mobile */
     
     .about__me{
         /* width: 50%; */
@@ -100,10 +102,13 @@
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
+    
+    
+      /* Hide this style on mobile */
+     
+    
 
-    .about__content{
-        text-align: center;
-    }
+    
     
     .about__content p{
         margin: 1.5rem 0;

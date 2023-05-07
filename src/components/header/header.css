@@ -1,7 +1,7 @@
 
 .header{
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 3rem;
     overflow: hidden;
 }
 h1{
@@ -75,7 +75,7 @@ h1::before{
     height: 28rem;
     position: absolute;
     left: calc(50% - 11rem);
-    margin-top: 4rem;
+    margin-top: 2rem;
     /* border-radius: 12rem 12rem 0 0; */
     overflow: hidden;
     /* padding: 5rem 1.5rem 1.5rem 1.5rem; */
@@ -230,7 +230,9 @@ h1::before{
             width: 55%;
         }
     }
-    .header__container{
+    .heade{
+        /* height: fit-content; */
+        margin-bottom:-4rem ;
         height: fit-content;
     }
     
@@ -248,6 +250,7 @@ h1::before{
       .me  {
         margin-left: -9rem;
         margin-top: -3rem;
+       
         transform: rotate(7deg);
         background: none;
       }

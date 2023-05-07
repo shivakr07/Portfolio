@@ -7,7 +7,7 @@
 .skills > div {
   background: var(--color-bg-variant);
     padding: 2.4rem 5rem;
-    border-radius: 2rem;
+    /* border-radius: 2rem; */
     border: 1px solid transparent;
     transition: var(--transition);
 }
@@ -35,7 +35,7 @@
   justify-content: center;
   width: 200px;
   height: 200px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   overflow: hidden;
   box-shadow: 0 0 0px rgba(0, 0, 0, 0);
   /* background-color: #fff; */
@@ -68,7 +68,7 @@
 .level {
   height: 5px;
   background-color: #fff;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   overflow: hidden;
   margin-top: 5px;
 }
@@ -95,7 +95,7 @@
   left: -5px;
   right: -5px;
   bottom: -5px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   box-shadow: 0 0 20px #9FEF00;
   z-index: -1;
 }

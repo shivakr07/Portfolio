@@ -1,16 +1,17 @@
 .container.testimonials__container{
-    width: 40%;
+    width: 50%;
     padding-bottom: 4rem;
     height: fit-content;
 }
 
 .client__avatar{
-    width: 4rem;
-    aspect-ratio: 1/1;
+    width: 30%;
+    /* aspect-ratio: 1/1; */
     overflow: hidden;
-    border-radius: 50%;
+    border-radius: 5%;
     margin: 0 auto 1rem;
     border: 0.4rem solid var(--color-primary-variant);
+    height: fit-content;
 }
 
 .testimonial{

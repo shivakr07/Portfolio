@@ -62,10 +62,7 @@ const Services = () => {
             <BsCheck className='sercice__list-icon' />
             <p>Aptitude for learning new technologies and incorporating them into projects</p>
           </li>
-          <li>
-            <BsCheck className='sercice__list-icon' />
-            <p>Possesses a keen eye for detail.</p>
-          </li>
+         
         </ul>
         </article>
         {/* END OF Web Dev */}
@@ -74,17 +71,17 @@ const Services = () => {
 
         <article className='service'>
           <div className="service__head">
-            <h3>Soft Skills</h3>
+            <h3>Photo/Video Edit</h3>
           </div>
 
           <ul className='service__list'>
           <li>
             <BsCheck className='sercice__list-icon' />
-            <p>Strong communication skills, both written and verbal</p>
+            <p>Having 3+ years in both Adobe Photoshop and Primiere Pro</p>
           </li>
           <li>
             <BsCheck className='sercice__list-icon' />
-            <p>Ability to collaborate effectively in a team environment</p>
+            <p>A team to deliver the project on the time</p>
           </li>
           <li>
             <BsCheck className='sercice__list-icon' />
@@ -92,7 +89,7 @@ const Services = () => {
           </li>
           <li>
             <BsCheck className='sercice__list-icon' />
-            <p>Strong problem-solving abilities to tackle complex issues and provide innovative solutions.</p>
+            <p>Post delivery support available by 24x7</p>
           </li>
           
         </ul>

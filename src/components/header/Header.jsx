@@ -1,33 +1,85 @@
-import React from 'react'
-import "./header.css"
+import { useState, useEffect } from "react";
+import { Container } from "react-bootstrap";
+import headerImg from "../../assets/loading.gif";
+import 'animate.css';
+import './header1.css'
 
-// import ME from "../../assets/me.png"
-import ME from "../../assets/asttt.png"
-import AIR from "../../assets/airr.png"
-import MOON from "../../assets/moon.png"
-import HeaderSocials from './HeaderSocials'
-import Typer from './Typer'
+const words = ["PORTFOLIO 1.0",">>", "FUTURE", "   "]
+   
+const words2 = ["       ","EVANS"]
 
 const Header = () => {
+  const [index, setIndex] = useState(0);
+  const [subIndex, setSubIndex] = useState(0);
+  const [blink, setBlink] = useState(true);
+  const [reverse, setReverse] = useState(false);
+
+  useEffect(() => {
+    if (index === words.length - 1 && subIndex === words[index].length) {
+      // If last word is fully displayed, reset to first word
+      setIndex(0);
+      setSubIndex(0);
+      return;
+    }
+
+    if (
+      subIndex === words[index].length + 1 &&
+      index !== words.length - 1 &&
+      !reverse
+    ) {
+      setReverse(true);
+      return;
+    }
+
+    if (subIndex === 0 && reverse) {
+      setReverse(false);
+      setIndex((prev) => prev + 1);
+      return;
+    }
+
+    const timeout = setTimeout(() => {
+      setSubIndex((prev) => prev + (reverse ? -1 : 1));
+    }, Math.max(
+      reverse ? 75 : subIndex === words[index].length ? 1000 : 450,
+      parseInt(Math.random() * 350)
+    ));
+
+    return () => clearTimeout(timeout);
+  }, [subIndex, index, reverse]);
+
+  useEffect(() => {
+    const timeout2 = setTimeout(() => {
+      setBlink((prev) => !prev);
+    }, 700);
+    return () => clearTimeout(timeout2);
+  }, [blink]);
+
   return (
-    <div className=' header container header__container'>
-      <h1 data-text="S&nbsp;H&nbsp;I&nbsp;V&nbsp;A&nbsp;M">S&nbsp;H&nbsp;I&nbsp;V&nbsp;A&nbsp;M</h1>
-      
-      {/* <Typer className='text-light' /> */}
-  
-    
-      <HeaderSocials />
-
-      <div className="me">
-        <img src={ME} alt="me" className ="imagine"/>
-      </div>
-      <div className="air">
-        <img src={AIR} alt="me" className ="imagine"/>
-      </div>
-
-      <a href="#contact" className='scroll__down'>Scroll Down</a>
+    <div className="header">
+      <section className="banner" id="home">
+        <Container>
+          {/* <span className="tagline">&lsaquo; Hi i am Shiva and &rsaquo;</span>
+          <br />
+          <p className="tagline">
+            &lsaquo; Welcome to the portfolio --version 0.0 &rsaquo;{" "}
+          </p>
+          <span className="tagline">&lsaquo; I am a &rsaquo;</span> */}
+           <p className="tagline">
+             hi {" "}
+          </p>
+           <p className="tagline">
+             i am shiva {" "}
+          </p>
+           <p className="tagline">
+             Welcome to the ...  {" "}
+          </p>
+          
+          <h1>{`${words[index].substring(0, subIndex)}${blink ? " " : ""}`}</h1>
+          
+        </Container>
+      </section>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

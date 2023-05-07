@@ -1,79 +1,81 @@
 import React from 'react'
 import { motion } from "framer-motion"
 import "./portfolio1.css"
-import IMGj from "../../assets/portfolio1.jpg"
-import IMG2 from "../../assets/portfolio1.jpg"
-import IMG3 from "../../assets/portfolio3.png"
-import IMG4 from "../../assets/portfolio1.jpg"
-import IMG5 from "../../assets/portfolio3.png"
-import IMG6 from "../../assets/portfolio6.png"
-import IMG7 from "../../assets/portfolio7.png"
-import IMG8 from "../../assets/portfolio8.png"
+import IMGj from "../../assets/colorg.jpg"
+import IMG2 from "../../assets/diab.png"
+import IMG3 from "../../assets/codeext.png"
+import IMG4 from "../../assets/spot.png"
+import IMG5 from "../../assets/them.png"
+import IMG6 from "../../assets/ayam.gif"
+import IMG7 from "../../assets/flights.jpg"
+import IMG8 from "../../assets/robo.jpg"
+import IMG9 from "../../assets/food.png"
 import { staggerContainer } from "../data.js"
 
 const data = [
   {
     id: 1,
     imaage: IMGj,
-    title: "Metaverse Of Madness",
-    Github: "https://github.com/IsraelBosun/meta",
-    demo: "https://meta-xtqq.vercel.app/"
+    title: "Color Grading",
+    Github: "https://github.com/kv272/the-T",
+    demo: "https://github.com/kv272/the-T"
   },
-  {
-    id: 2,
-    imaage: IMG2,
-    title: "Omicron Gadgets ",
-    Github: "https://github.com/IsraelBosun/omicron-gadgets",
-    demo: "https://israelbosun.github.io/omicron-gadgets/"
-  },
+ 
   {
     id: 3,
     imaage: IMG3,
-    title: "real estate app ",
-    Github: "https://github.com/IsraelBosun/real-estate-app",
-    demo: "https://real-estate-app-alpha-two.vercel.app/"
+    title: "Chrome Extension",
+    Github: "https://github.com/shivakr07/CODE",
+    demo: "https://github.com/shivakr07/CODE"
   },
   {
     id: 4,
     imaage: IMG4,
-    title: "GPT-3 OpenAI ",
-    Github: "https://github.com/IsraelBosun/gpt-3-israel",
-    demo: "https://gpt-3-israel.vercel.app/"
+    title: "Spotify Clone ",
+    Github: "https://github.com/shivakr07/Spotify-Clone",
+    demo: "https://github.com/shivakr07/Spotify-Clone"
   },
   {
     id: 5,
     imaage: IMG5,
-    title: "online Economics ",
-    Github: "https://github.com/IsraelBosun/school-website",
-    demo: "https://school-website-sigma.vercel.app/"
+    title: "VSCode dark Theme",
+    Github: "https://github.com/shivakr07/devstheme",
+    demo: "https://marketplace.visualstudio.com/items?itemName=Evans.awesome-vscode-theme"
   },
   {
     id: 6,
     imaage: IMG6,
-    title: "chatGPT clone  OpenAI's",
-    Github: "https://github.com/IsraelBosun/Afro-gpt",
-    demo: "https://afro-gpt.vercel.app/"
+    title: "Portfolio",
+    Github: "https://github.com/shivakr07/",
+    demo: "https://github.com/shivakr07/"
   },
   {
     id: 7,
     imaage: IMG7,
-    title: "gym website ",
-    Github: "https://github.com/IsraelBosun/gyming",
-    demo: "https://gyming.vercel.app/"
+    title: "Flight Booking",
+    Github: "https://github.com/shivakr07/FlightsSearchandService",
+    demo: "https://github.com/shivakr07/FlightsSearchandService"
   },
   {
     id: 8,
     imaage: IMG8,
-    title: "ecommerce website ",
-    Github: "https://github.com/IsraelBosun/ecommerce-stripe",
-    demo: "https://ecommerce-stripe-git-main-israelbosun.vercel.app/"
+    title: "Tech Blog",
+    Github: "https://github.com/shivakr07/Blog-app",
+    demo: "https://github.com/shivakr07/Blog-app"
   },
   {
     id: 9,
-    imaage: IMG8,
-    title: "ecommerce website ",
-    Github: "https://github.com/IsraelBosun/ecommerce-stripe",
-    demo: "https://ecommerce-stripe-git-main-israelbosun.vercel.app/"
+    imaage: IMG9,
+    title: "Food Delivery",
+    Github: "https://github.com/shivakr07/ResponsiveWebsite",
+    demo: "https://github.com/shivakr07/ResponsiveWebsite"
+  },
+  {
+    id: 2,
+    imaage: IMG2,
+    title: "Health App",
+    Github: "https://github.com/shivakr07/",
+    demo: "https://github.com/shivakr07/"
   }
 ]
 

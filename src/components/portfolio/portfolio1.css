@@ -8,16 +8,13 @@
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 5;
-    /* Change "5" to the desired number of lines */
     -webkit-box-orient: vertical;
-  
-    /* Add a "read more" link to expand the text */
     position: relative;
   
-    background: rgba(255, 255, 255, 0.1);
+    background: #221730a6;
     height: min-content;
     padding: 1.2rem;
-    border-radius: 1rem;
+    /* border-radius: 1rem; */
     border: 1px solid transparent;
     transition: var(--transition);
     backdrop-filter: blur(10px);
@@ -30,7 +27,7 @@
   }
   
   .portfolio__item-image {
-    border-radius: 1rem;
+    /* border-radius: 1rem; */
     overflow: hidden;
   }
   

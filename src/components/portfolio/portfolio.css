@@ -13,10 +13,10 @@
   /* Add a "read more" link to expand the text */
     position: relative;
 
-    background: var(--color-bg-variant);
+    background: #221730a6;
     height: min-content;
     padding: 1.2rem;
-    border-radius: 1rem;
+    /* border-radius: 1rem; */
     border: 1px solid transparent;
     transition: var(--transition);
 }
@@ -28,7 +28,7 @@
 }
 
 .portfolio__item-image{
-    border-radius: 1rem;
+    /* border-radius: 1rem; */
     overflow: hidden;
 }
 

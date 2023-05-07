@@ -15,7 +15,7 @@ import imgd from '../../assets/Git.png'
 import imge from '../../assets/github.gif'
 import imgf from '../../assets/tensorflow.png'
 import imgg from '../../assets/python.png'
-import imgh from '../../assets/database.png'
+import imgh from '../../assets/connection.png'
 
 const Experience = () => {
   return (
@@ -30,40 +30,40 @@ const Experience = () => {
          
               <div className='techn'>
                 <img  className='pic' src={img1}/>
-                <small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; html</small>
+                <small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; node JS</small>
               </div>
               
               <div className='techn'>
                 <img  className='pic' src={img2}/>
-                <small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; html</small>
+                <small>&nbsp;&nbsp;&nbsp;&nbsp; Express JS</small>
               </div>
               
               <div className='techn'>
                 <img  className='pic' src={img3}/>
-                <small>html</small>
+                <small>&nbsp; &nbsp;Mongo DB</small>
               </div>
               <div className='techn'>
                 <img  className='pic' src={img4}/>
-                <small>html</small>
+                <small>&nbsp; &nbsp;&nbsp; React JS</small>
               </div>
          
               <div className='techn'>
                 <img  className='pic' src={img6}/>
-                <small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; html</small>
+                <small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; html5</small>
               </div>
               
               <div className='techn'>
                 <img  className='pic' src={img5}/>
-                <small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; html</small>
+                <small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CSS3</small>
               </div>
               
               <div className='techn'>
                 <img  className='pic' src={img7}/>
-                <small>html</small>
+                <small>&nbsp; &nbsp;&nbsp; &nbsp;My SQL</small>
               </div>
               <div className='techn'>
                 <img  className='pic' src={img8}/>
-                <small>html</small>
+                <small>&nbsp; &nbsp;Bootstrap</small>
               </div>
           </div>
 
@@ -75,38 +75,38 @@ const Experience = () => {
           <div className="experience__content">
               <div className='techn'>
                 <img  className='pic' src={imga}/>
-                <small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; html</small>
+                <small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Javascript</small>
               </div>
               
               <div className='techn'>
                 <img  className='pic' src={imgb}/>
-                <small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; html</small>
+                <small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; C++</small>
               </div>
               
               <div className='techn'>
                 <img  className='pic' src={imgc}/>
-                <small>html</small>
+                <small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C Lang.</small>
               </div>
               <div className='techn'>
                 <img  className='pic' src={imgd}/>
-                <small>html</small>
+                <small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Git</small>
               </div>
               <div className='techn'>
                 <img  className='pic' src={imge}/>
-                <small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; html</small>
+                <small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Github</small>
               </div>
               
               <div className='techn'>
                 <img  className='pic' src={imgf}/>
-                <small>html</small>
+                <small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tensorflow</small>
               </div>
               <div className='techn'>
                 <img  className='pic' src={imgg}/>
-                <small>html</small>
+                <small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Python</small>
               </div>
               <div className='techn'>
                 <img  className='pic' src={imgh}/>
-                <small>html</small>
+                <small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datastructure</small>
               </div>
               
           </div>
